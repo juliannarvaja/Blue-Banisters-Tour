@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: rgb(86,35,26);
+    background: linear-gradient(90deg, rgba(86,35,26,1) 0%, rgba(105,50,27,1) 23%, rgba(182,161,123,1) 100%);;
+}
+
+h2 {
+    background-color: #E0D7AF;
+    text-align: center;
+    width: 10rem;
+    margin: 30px auto;
+}
+
+.data {
+    text-align: center;
+    margin-left: -40px;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 12px;
+    margin-top: 1px;
+}
+
+.data p {
+    font-size: 20px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+i {
+    color: khaki;
+    border: khaki 2px double;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+i:hover {
+    background-color: lemonchiffon;
+    padding: 20px;
+}
+
+button {
+    background-color: khaki;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-family: 'Open Sans Condensed', sans-serif;
+}

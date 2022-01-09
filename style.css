@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: rgb(86,35,26);
+    background: linear-gradient(90deg, rgba(86,35,26,1) 0%, rgba(105,50,27,1) 23%, rgba(182,161,123,1) 100%);
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #E0D7AF;
+    border-style: none;
+    border-radius: 10px;
+}
+
+header p {
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    font-size: 120%;
+}
+
+.head {
+    display: inline-block;
+    margin: 5px 100px;
+}
+
+.head:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+#title:hover {
+    font-style: normal;
+}
+
+#left {
+    border: 3px black solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#right {
+    border: 3px black solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.lana {
+    margin: 85px auto;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    height: 800px;
+    width: 1200px;
+}
+
+
+.lana img {
+    border-radius: 350px;
+    width: 500px;
+    border: #E0D7AF solid 3px;
+
+    align-self: center;
+}
+
+.lan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section .lan {
+    display: inline-block;
+    grid-gap: 10px;
+    margin-top: -80px;
+    margin-left: 30px;
+
+}
+
+.lana {
+    height: 100%;
+}
+
+.quote {
+    background-color: #E0D7AF;
+    color: black;
+    width: 350px;
+    text-align: center;
+    display: grid;
+    border: transparent solid 1px;
+    border-radius: 5%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.quote:hover {
+    background-color:  #c7bb85;
+}
+
+#one {
+    margin-left: 10px;
+    animation: slide-out 1s forwards;
+
+}
+
+#two {
+    margin-left: 80px;
+    animation: slide-out 6s forwards;
+}
+
+#three {
+    margin-left: 160px;
+    animation: slide-out 9s forwards;
+}
+
+#lyr1 {
+    margin-left: 10px;
+    animation: slide-out 1s forwards;
+}
+
+#lyr2 {
+    margin-left: 50px;
+    animation: slide-out 5s forwards;
+}
+
+#lyr3 {
+    margin-left: 100px;
+    animation: slide-out 11s forwards;
+}
+
+.song {
+    margin: 0 auto;
+    background-color: #E0D7AF;
+}
+
+.letras {
+    margin-left: 300px;
+}
+
+iframe {
+    width: 360px;
+    height: 240px;
+    border: 10px solid #E0D7AF;
+    border-radius: 25px;
+    margin-left: -200px;
+}
+
+.lyrics {
+    color: white;
+    background-color: black;
+    width: 190px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lyrics:hover {
+    color: gray;
+}
+
+#segundoheader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: -80px auto;
+    width: 50%;
+    align-items: center;
+}
+
+.photos h2 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.card {
+    background-color: white;
+    height: 150px;
+    margin: 50px 50px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card img:hover {
+    border-color: black;
+    border-radius: 20%;
+}
+
+.contact input {
+    border: solid transparent 1px;
+}
+
+#nombre {
+    border: 1px solid #E0D7AF;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#email {
+    margin-left: 5px;
+    border: 1px solid #E0D7AF;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: brown;
+    color: black;
+    border-color: black;
+    border-radius: 12%;
+}
+
+button:hover {
+    background-color: rgb(168, 101, 101);
+    color: white;
+}
+
+::placeholder {
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+.social {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #E0D7AF;
+    padding-bottom: 30px;
+}
+
+footer p {
+    width: 100px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+@keyframes slide-out {
+    0% { -webkit-transform: translateX(200%); }
+    100% { -webkit-transform: translateX(0%); }
+}
+
+@keyframes slide-out {
+    0% { -webkit-transform: translateX(200%);}
+    100% { -webkit-transform: translateX(0%)}
+}
+
+@media (max-width: 600px) {
+    #primerheader {
+        width: 60%;
+        height: 30%;
+        margin-left: 95px;
+    }
+    .head {
+        width: 30%;
+    }
+
+    #left {
+        margin-left: 95px;
+    }
+
+    #right {
+        margin-left: 95px;
+    }
+
+    .head h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 12px;
+        margin-top: 1px;
+    }
+
+    header p {
+        margin-top: 0.3px;
+        margin-left: 3px;
+    }
+
+    .lana img {
+        margin-top: -330px;
+        margin-left: 110px;
+        width: 50%;
+        position: absolute;
+    }
+
+    .quote {
+        display: grid;
+        margin-top: 250px;
+    }
+
+    iframe,
+    .lyrics {
+        display: inline-block;
+    }
+
+    iframe {
+        margin-top: -50px;
+        position: absolute;
+        width: 135px;
+        height: 90px;
+        margin-left: -120px;
+    }
+
+    #one {
+        margin-top: 200px;
+        margin-left: -20px;
+    }
+
+    #two {
+        margin-top: 5px;
+        margin-left: 7px;
+    }
+
+    #three {
+        margin-top: 3px;
+        margin-left: 50px;
+    }
+
+    .photos {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pics {
+        width: 3
+    }
+
+    #segundoheader {
+        height: 150px;
+    }
+
+    #lyr1,
+    #lyr2,
+    #lyr3 {
+        display: grid;
+        grid-template-rows: 10px 10px 10px;
+    }
+
+    #lyr1 {
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-left: -250px;
+    }
+
+    #lyr2 {
+        margin-top: -35px;
+        margin-bottom: 50px;
+        margin-left: -200px;
+    }
+
+    #lyr3 {
+        margin-top: -35px;
+        margin-bottom: 50px;
+        margin-left: -150px;
+    }
+    
+.card {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    width: 20px;
+    height: 50px;
+    margin-left: 25px;
+    
+}
+.card img {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+.contact {
+    width: 100%;
+    height: 100%;
+}
+
+#nombre {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+#email {
+    margin-left: 110px;
+}
+
+#nombre input {
+    width: 90%;
+}
+
+#email input {
+    width: 90%;
+}
+
+button {
+    margin-left: 15px;
+}
+.social {
+    margin-left: 15px;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+#right p {
+    margin-left: 28px;
+}
+
+
+}
